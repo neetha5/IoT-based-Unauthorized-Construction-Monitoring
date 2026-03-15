@@ -1,0 +1,42 @@
+git config --global user.name "neethacn"
+git config --global user.email "neethacn2004@gmail.com"
+git config --list
+mkdir demolab3
+cd demolab3
+git init
+git clone (paste url of git)
+cd xyz
+nano project.txt
+git add project.txt
+git commit -m "initial commit"
+git push -u origin master
+git branch branch-a
+git checkout branch-a
+nano project1.txt
+git add .
+git commit -m "branch-a branch update"
+git push origin branch-a
+
+merge 
+
+mkdir merge1
+cd merge1
+git init
+echo "initial line of content">merge.txt
+git add .
+git commit -m "add initial content"
+git checkout -b branch-a
+echo "content of branch a">merge.txt
+git commit -am "Modified content from branch A"
+git checkout master
+git checkout -b branch-b
+echo "content of branch b">merge.txt
+git commit -am "Modified content from branch B"
+git checkout master
+git merge branch-b
+git merge branch-a
+cat merge.txt
+echo "combine content from branch A and B">merge.txt
+cat merge.txt
+git add merge.txt
+git commit -m "resolved merge conflict by combining content"
