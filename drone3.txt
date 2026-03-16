@@ -55,3 +55,20 @@ sudo apt install snapd -y
 sudo snap install ngrok
 
 paste url /github-webhook/
+
+
+Jenkinsfile
+steps{
+sh'python3 script.py'
+}
+}
+}
+}
+
+
+script.py
+
+n1=2
+n2=2
+sum=n1+n2
+print("sum",sum)
