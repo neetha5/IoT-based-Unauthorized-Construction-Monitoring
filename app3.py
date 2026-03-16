@@ -1,3 +1,20 @@
+
+Rahul
+Skills: HTML, CSS, JavaScript, Web Design
+Experience: Worked on frontend development.
+
+
+Rahul
+Skills: HTML, CSS, JavaScript, Web Design
+Experience: Worked on frontend development.
+
+
+Looking for a software engineer with skills in Python, Machine Learning,
+Data Structures, Artificial Intelligence, and problem solving.
+
+
+
+
 pipeline {
   agent any
 
